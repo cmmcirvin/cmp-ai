@@ -1,7 +1,7 @@
 local requests = require('cmp_ai.requests')
 
 HF = requests:new(nil)
-BASE_URL = 'https://api-inference.huggingface.co/models/bigcode/santacoder'
+BASE_URL = 'https://api-inference.huggingface.co/models/TheBloke/CodeLlama-7B-AWQ'
 -- BASE_URL = "https://api-inference.huggingface.co/models/bigcode/starcoder"
 
 function HF:new(o, params)
